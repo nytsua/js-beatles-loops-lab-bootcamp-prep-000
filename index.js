@@ -20,6 +20,6 @@ function iLoveTheBeatles(num){
   do{
     toReturn.push('I love the Beatles!');
     num--;
-  } while(num > 0);
+  } while(num >= 0);
   return toReturn;
 }
