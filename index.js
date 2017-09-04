@@ -19,7 +19,7 @@ function iLoveTheBeatles(num){
   var toReturn = [];
   do{
     toReturn.push('I love the Beatles!');
-    num--;
-  } while(num >= 0);
+    num++;
+  } while(num < 15);
   return toReturn;
 }
